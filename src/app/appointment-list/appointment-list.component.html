@@ -1,0 +1,13 @@
+<div>
+  <input
+    [(ngModel)]="newAppointmentTitle"
+    type="text"
+    placeholder="Appointment description"
+  />
+  <input
+    [(ngModel)]="newAppointmentDate"
+    type="date"
+    placeholder="Appointment date"
+  />
+  <button (click)="addAppointment()">Add</button>
+</div>
